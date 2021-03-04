@@ -1,18 +1,18 @@
 ﻿PokemonJSON
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Release\netcoreapp3.1\
 PokemonJSON
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\App.xaml
 11151548125
 
-71393456097
+5-916374453
 193-339788254
 MainWindow.xaml;
 

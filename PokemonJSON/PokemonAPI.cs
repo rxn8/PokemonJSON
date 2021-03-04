@@ -6,10 +6,10 @@ namespace PokemonJSON
 {
     public class PokemonAPI
     {
-        public List<ResultsObject> results { get; set; }
+        public List<Pokemon> results { get; set; }
     }
 
-    public class ResultsObject
+    public class Pokemon
     {
         public string name { get; set; }
         public string url { get; set; }

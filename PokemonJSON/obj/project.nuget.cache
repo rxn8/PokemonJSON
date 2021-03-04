@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3FcVaeRRFcvLIw4RJdyWIlrXUG1i4ZBVVci7ZPOd0Po2fkKicGxba8JopOUkzTvvtlPLjyvY+j6Tubq3qUp4Ow==",
+  "dgSpecHash": "EJcYzg61B15ZjFX5PPAvgrs42kNU+hbbP0nWj/LnWV1Dy4sSlA/4kP+erjNiorSmgkjBctf48j1FrM1GRssCwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nathan Smith\\source\\repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
+  "projectFilePath": "C:\\Users\\natha\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nathan Smith\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Nathan Smith\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Nathan Smith\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\natha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

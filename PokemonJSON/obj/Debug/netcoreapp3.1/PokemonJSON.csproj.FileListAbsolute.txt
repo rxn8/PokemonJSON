@@ -19,3 +19,24 @@ C:\Users\Nathan Smith\source\repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcor
 C:\Users\Nathan Smith\source\repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.dll
 C:\Users\Nathan Smith\source\repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.pdb
 C:\Users\Nathan Smith\source\repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.genruntimeconfig.cache
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.csprojAssemblyReference.cache
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON_MarkupCompile.cache
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON_MarkupCompile.lref
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.dll
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.pdb
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\bin\Debug\netcoreapp3.1\PokemonJSON.exe
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\bin\Debug\netcoreapp3.1\PokemonJSON.deps.json
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\bin\Debug\netcoreapp3.1\PokemonJSON.runtimeconfig.json
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\bin\Debug\netcoreapp3.1\PokemonJSON.runtimeconfig.dev.json
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\bin\Debug\netcoreapp3.1\PokemonJSON.dll
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\bin\Debug\netcoreapp3.1\PokemonJSON.pdb
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.g.resources
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.AssemblyInfoInputs.cache
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.AssemblyInfo.cs
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.csproj.CoreCompileInputs.cache
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.csproj.CopyComplete
+C:\Users\natha\Source\Repos\rxn8\PokemonJSON\PokemonJSON\obj\Debug\netcoreapp3.1\PokemonJSON.genruntimeconfig.cache

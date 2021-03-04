@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ListBox x:Name="lstPokemon" Margin="0,225,0,0" SelectionChanged="lstPokemon_SelectionChanged"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="550,50,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="txtHeight" HorizontalAlignment="Left" Margin="100,50,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32"/>
-        <TextBlock x:Name="txtWeight" HorizontalAlignment="Left" Margin="100,100,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32"/>
+        <TextBlock x:Name="txtHeight" HorizontalAlignment="Left" Margin="100,50,0,0" Text="Height" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32"/>
+        <TextBlock x:Name="txtWeight" HorizontalAlignment="Left" Margin="100,100,0,0" Text="Weight" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32"/>
+        <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="100" Margin="550,50,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>

@@ -32,8 +32,8 @@ namespace PokemonJSON
             using (var client = new HttpClient())
             {
                 string json = client.GetStringAsync(url).Result;
-
                 var result = client.GetAsync(url).Result;
+
                 if (result.IsSuccessStatusCode == true)
                 {
                     api = JsonConvert.DeserializeObject<PokemonAPI>(json);
@@ -48,19 +48,22 @@ namespace PokemonJSON
 
         private void lstPokemon_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ResultsObject pokemon = (ResultsObject)lstPokemon.SelectedItem;
-            PokemonAPI api = new PokemonAPI();
+            var pokemon = (PokemonDetails)lstPokemon.SelectedItem;
+            imgPokemon.Source = new BitmapImage(new Uri(pokemon.sprites.front_default));
 
-            using (var client = new HttpClient())
-            {
-                string json = client.GetStringAsync(pokemon.url).Result;
 
-                var result = client.GetAsync(pokemon.url).Result;
-                if (result.IsSuccessStatusCode == true)
-                {
-                    api = JsonConvert.DeserializeObject<PokemonAPI>(json);
-                }
-            }
+            //PokemonAPI api = new PokemonAPI();
+
+            //using (var client = new HttpClient())
+            //{
+            //    string json = client.GetStringAsync(pokemon.url).Result;
+
+            //    var result = client.GetAsync(pokemon.url).Result;
+            //    if (result.IsSuccessStatusCode == true)
+            //    {
+            //        api = JsonConvert.DeserializeObject<PokemonAPI>(json);
+            //    }
+            //}
         }
     }
 }

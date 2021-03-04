@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nathan Smith\\source\\repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj": {}
+    "C:\\Users\\natha\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nathan Smith\\source\\repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj": {
+    "C:\\Users\\natha\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nathan Smith\\source\\repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
         "projectName": "PokemonJSON",
-        "projectPath": "C:\\Users\\Nathan Smith\\source\\repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
-        "packagesPath": "C:\\Users\\Nathan Smith\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nathan Smith\\source\\repos\\rxn8\\PokemonJSON\\PokemonJSON\\obj\\",
+        "projectPath": "C:\\Users\\natha\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nathan Smith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,16 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -73,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
