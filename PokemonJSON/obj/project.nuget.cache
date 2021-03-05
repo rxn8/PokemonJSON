@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EJcYzg61B15ZjFX5PPAvgrs42kNU+hbbP0nWj/LnWV1Dy4sSlA/4kP+erjNiorSmgkjBctf48j1FrM1GRssCwA==",
+  "dgSpecHash": "S2N/wpANyNx9eZPWVVpCWONEez+Tpm4n1t0j2QUujqdGUzKAWshk4/ai3PJejSsP3zioagPYcwEebMCo8XDE2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natha\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\rxn8\\PokemonJSON\\PokemonJSON\\PokemonJSON.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\natha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

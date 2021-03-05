@@ -46,24 +46,96 @@ namespace PokemonJSON
             }
         }
 
+        int btnFlipCount = 0;
         private void lstPokemon_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var pokemon = (PokemonDetails)lstPokemon.SelectedItem;
-            imgPokemon.Source = new BitmapImage(new Uri(pokemon.sprites.front_default));
+            btnFlipCount = 0;
+            txtBackSpriteError.Text = "";
+            PokemonDetails selectedPokemonDetails = new PokemonDetails();
+            PokemonResults p = (PokemonResults)lstPokemon.SelectedItem;
 
+            txtName.Text = p.name.ToUpper();
 
-            //PokemonAPI api = new PokemonAPI();
+            using (var client = new HttpClient())
+            {
+                string pokemonJSON = client.GetStringAsync(p.url).Result;
+                selectedPokemonDetails = JsonConvert.DeserializeObject<PokemonDetails>(pokemonJSON);
+            }
 
-            //using (var client = new HttpClient())
-            //{
-            //    string json = client.GetStringAsync(pokemon.url).Result;
+            txtHeight.Text = (selectedPokemonDetails.height*10).ToString("N0")+" cm";
+            txtWeight.Text = (selectedPokemonDetails.weight/10).ToString("N0")+" kg";
+            imgPokemon.Source = new BitmapImage(new Uri(selectedPokemonDetails.sprites.front_default));
+        }
 
-            //    var result = client.GetAsync(pokemon.url).Result;
-            //    if (result.IsSuccessStatusCode == true)
-            //    {
-            //        api = JsonConvert.DeserializeObject<PokemonAPI>(json);
-            //    }
-            //}
+        private void btnFlip_Button_Click(object sender, RoutedEventArgs e)
+        {
+            txtBackSpriteError.Text = "";
+
+            if (btnFlipCount == 0)
+            {
+                ShowBackSprite();
+                btnFlipCount++;
+            }
+
+            else
+            {
+                ShowFrontSprite();
+                btnFlipCount--;
+            }
+        }
+
+        private void ShowBackSprite()
+        {
+            PokemonDetails selectedPokemonDetails = new PokemonDetails();
+            PokemonResults p = (PokemonResults)lstPokemon.SelectedItem;
+
+            using (var client = new HttpClient())
+            {
+                if (p is null)
+                {
+                    return;
+                }
+
+                else
+                {
+                    string pokemonJSON = client.GetStringAsync(p.url).Result;
+                    var result = client.GetAsync(p.url).Result;
+                    selectedPokemonDetails = JsonConvert.DeserializeObject<PokemonDetails>(pokemonJSON);
+
+                    if (selectedPokemonDetails.sprites.back_default is null)
+                    {
+                        txtBackSpriteError.Text = "No back sprite found for this Pokemon.";
+                    }
+
+                    else
+                    {
+                        imgPokemon.Source = new BitmapImage(new Uri(selectedPokemonDetails.sprites.back_default));
+                    }
+                }
+            }   
+        }
+
+        private void ShowFrontSprite()
+        {
+            PokemonDetails selectedPokemonDetails = new PokemonDetails();
+            PokemonResults p = (PokemonResults)lstPokemon.SelectedItem;
+
+            using (var client = new HttpClient())
+            {
+                if (p is null)
+                {
+                    return;
+                }
+
+                else
+                {
+                    string pokemonJSON = client.GetStringAsync(p.url).Result;
+
+                    selectedPokemonDetails = JsonConvert.DeserializeObject<PokemonDetails>(pokemonJSON);
+
+                    imgPokemon.Source = new BitmapImage(new Uri(selectedPokemonDetails.sprites.front_default));
+                }
+            }
         }
     }
 }
